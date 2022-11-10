@@ -55,3 +55,16 @@ main div.img{
     border-radius: 50%;
     background-color: pink;
 }
+
+
+/*Section about*/
+section.about{
+    background-color: #6ebb9b;
+}
+
+
+section.about button{
+    border: 1px solid white;
+    background-color: #6ebb9b;
+    color: white;
+}
