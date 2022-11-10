@@ -79,10 +79,10 @@ section.about button{
                                                             FOOTER
 */
 
+/*Section main-footer*/
 section.main-footer{
     background-color: #46536b;
 }
-
 
 section.main-footer button{
     border: 1px solid white;
@@ -91,4 +91,11 @@ section.main-footer button{
     padding: .5rem 1rem;
     background-color: #46536b;
     margin-right: .5rem;
+}
+
+
+/*Section end-footer*/
+section.end-footer{
+    background-color: #363f50;
+
 }
