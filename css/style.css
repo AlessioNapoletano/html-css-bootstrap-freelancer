@@ -20,6 +20,12 @@
     background-color: #c3b2a3;
 }
 
+/*Generic element*/
+a{
+    text-decoration: none;
+    color: #6ebb9b;
+}
+
 
 /*
                                                             HEADER
@@ -67,4 +73,22 @@ section.about button{
     border: 1px solid white;
     background-color: #6ebb9b;
     color: white;
+}
+
+/*
+                                                            FOOTER
+*/
+
+section.main-footer{
+    background-color: #46536b;
+}
+
+
+section.main-footer button{
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    background-color: #46536b;
+    margin-right: .5rem;
 }
