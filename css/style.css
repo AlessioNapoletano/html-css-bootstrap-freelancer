@@ -15,21 +15,27 @@ div.my_icon div.my_hr {
     border-radius: 3px;
 }
 
+/*Generic background color*/
+.bg-primary-green{
+    background-color: #1abc9c;
+}
+
+.bg-primary-black{
+    background-color: #2c3e50;
+}
+
+.bg-secondary-black{
+    background-color: #3a546d;
+}
+
+.border-white{
+    border: 1px solid white;
+}
+
 
 /*
                                                             HEADER
 */
-
-/*Background color for header*/
-header {
-    background-color: #6ebb9b;
-}
-
-/*Background color for section nav*/
-section.nav{
-    background-color: #2c3e50;
-}
-
 /*Formatting a div image*/
 header div.my_img {
     width: 298px;
@@ -53,42 +59,19 @@ section.portfolio div.my_box>img {
     height: 100%;
 }
 
-/*Section about*/
-section.about {
-    background-color: #6ebb9b;
-}
-
-/*Formatting button in section about*/
-section.about button {
-    border: 1px solid white;
-    background-color: #6ebb9b;
-}
-
-/*Formatting button in section Contact Me*/
-section.contact_me button {
-    background-color: #6ebb9b;
-}
-
-/*Hover button*/
+/*Hover button in contact-me section, end form*/
 section.contact_me button:hover {
     background-color: #2d5e49;
 }
-
 /*
                                                             FOOTER
 */
 
-/*Section main-footer*/
-section.main-footer {
-    background-color: #46536b;
-}
-
-/*Formatting button*/
+/*Formatting button icon*/
 section.main-footer button {
     border: 1px solid white;
     border-radius: 50%;
     padding: .8rem 1rem;
-    background-color: #46536b;
 }
 
 /*Button hover*/
@@ -100,11 +83,4 @@ section.main-footer button:hover{
 section.main-footer button>i {
     width: 16px;
     height: 16px;
-}
-
-
-/*Section end-footer*/
-section.end-footer {
-    background-color: #363f50;
-
 }
