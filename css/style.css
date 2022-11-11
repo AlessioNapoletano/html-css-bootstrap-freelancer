@@ -1,4 +1,6 @@
-                                                        /*Generic class*/
+/*                                                  
+                                                        GENERIC CLASS
+*/
 /*Generic back-ground color*/
 .background-red{
     background-color: #a14e64;
@@ -20,7 +22,9 @@
     background-color: #c3b2a3;
 }
 
-/*Generic element*/
+/*                                                  
+                                                        GENERIC ELENENT
+*/
 a{
     text-decoration: none;
     color: #6ebb9b;
@@ -32,17 +36,15 @@ a{
 */
 
 
-
+/*Background color for header*/
 header{
     background-color: #6ebb9b;
 }
 
+/*Formatting a div image*/
 header div.img{
-    border-radius: 50%;
-    width: 300px;
-    height: 280px;
-    border: 1px solid black;
-    background-color: pink;
+    width: 298px;
+    height: 316px;
 }
 
 /*
