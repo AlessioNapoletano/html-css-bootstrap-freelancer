@@ -42,9 +42,16 @@ header{
 }
 
 /*Formatting a div image*/
-header div.img{
+header div.my_img{
     width: 298px;
     height: 316px;
+}
+
+/*Div with the icon in header*/
+div.my_icon div.my_hr{
+    width: 10rem;
+    height: .2rem;
+    border-radius: 3px;
 }
 
 /*
