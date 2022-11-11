@@ -15,14 +15,73 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <header>
 
-        <section class="main-header container mb-5">
+        <!--Section nav bar-->
+        <section class="nav">
+
+            <!--Start Container-->
+            <div class="container">
+
+                <!--Start row nav bar-->
+                <div class="row">
+
+                    <div class="col-12">
+                        <!--col Nav bar-->
+                        <nav class="navbar navbar-expand-md">
+
+                            <a class="navbar-brand fw-bold text-white" href="#main-header">START BOOTSTRAP</a>
+
+                            
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="#portfolio">PORTFOLIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="#about">ABOUT</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white fw-bold" href="#contact_me">CONTACT</a>
+                                    </li>
+                            </div>
+                            <!--End Nav-->
+                        </nav>
+
+                        <!--End Col-->
+                    </div>
+
+
+                    <!--End Row-->
+                </div>
+
+                <!--End container-->
+            </div>
+
+
+            <!--Start container-->
+
+
+
+        </section>
+
+        <!--Section Jumbotron-->
+        <section id="main-header" class="main-header container mb-5">
             <div class="row">
 
                 <!--Col for img jumbotron-->
@@ -41,11 +100,11 @@
                     </h1>
                 </div>
 
-                <!--Icon Star-->
+                <!--Col Icon-->
                 <div class="col-12">
                     <div class="my_icon d-flex align-items-center justify-content-center mb-3">
                         <div class="my_hr bg-light me-2"></div>
-                            <i class="fa-solid fa-star text-light fs-2"></i>
+                        <i class="fa-solid fa-star text-light fs-2"></i>
                         <div class="my_hr bg-light ms-2"></div>
                     </div>
                 </div>
@@ -61,10 +120,14 @@
             </div>
             <!--Close section main-header-->
         </section>
+
     </header>
 
     <main>
-        <section class="portfolio container mb-2">
+        <!--Section Portfolio-->
+        <section id="portfolio" class="portfolio container mb-5">
+
+            <!--Row of Text and Icon-->
             <div class="row">
 
                 <!--H1-->
@@ -76,20 +139,61 @@
 
                 <!--Icon star-->
                 <div class="col-12">
-                    <div class="my_icon d-flex align-items-center justify-content-center mb-3">
+                    <div class="my_icon d-flex align-items-center justify-content-center mb-4">
                         <div class="my_hr bg-dark me-2"></div>
-                            <i class="fa-solid fa-star text-dark fs-2"></i>
+                        <i class="fa-solid fa-star text-dark fs-2"></i>
                         <div class="my_hr bg-dark ms-2"></div>
                     </div>
                 </div>
 
+            </div>
+
+            <!--Row of My_box image-->
             <div class="row">
+
+                <!--Image Cabin-->
                 <div class="col12 col-md-6 col-lg-4 mb-4">
-                    <div class="my-box background-red rounded d-flex align-items-center justify-content-center">
-                        <div class="img"></div>
+                    <div class="my_box rounded">
+                        <img src="./img/cabin.png" alt="image of Cabin" class="rounded">
                     </div>
                 </div>
 
+                <!--Image Cake-->
+                <div class="col12 col-md-6 col-lg-4 mb-4">
+                    <div class="my_box rounded">
+                        <img src="./img/cake.png" alt="image of cake" class="rounded">
+                    </div>
+                </div>
+
+                <!--Image Circus-->
+                <div class="col12 col-md-6 col-lg-4 mb-4">
+                    <div class="my_box rounded">
+                        <img src="./img/circus.png" alt="image of Circus" class="rounded">
+                    </div>
+                </div>
+
+                <!--Image controller-->
+                <div class="col12 col-md-6 col-lg-4 mb-4">
+                    <div class="my_box rounded">
+                        <img src="./img/game.png" alt="image of controller" class="rounded">
+                    </div>
+                </div>
+
+                <!--Image (safe=)Cassaforte-->
+                <div class="col12 col-md-6 col-lg-4 mb-4">
+                    <div class="my_box rounded">
+                        <img src="./img/safe.png" alt="image of Cassaforte" class="rounded">
+                    </div>
+                </div>
+
+                <!--Image Submarine-->
+                <div class="col12 col-md-6 col-lg-4 mb-4">
+                    <div class="my_box rounded">
+                        <img src="./img/submarine.png" alt="image of Submarine" class="rounded">
+                    </div>
+                </div>
+
+                <!--
                 <div class="col12 col-md-6 col-lg-4 mb-4">
                     <div class="my-box background-light-blue rounded d-flex align-items-center justify-content-center">
                         <div class="img"></div>
@@ -119,67 +223,226 @@
                         <div class="img"></div>
                     </div>
                 </div>
+
+                -->
+
+
+
             </div>
 
         </section>
 
-        <section class="about">
+        <!--Section About-->
+        <section id="about" class="about py-5 mb-5">
             <div class="container">
-                
+
+                <!--Row H1 and Icon-->
                 <div class="row">
+
+                    <!--Col h1-->
                     <div class="col-12">
-                        <h1 class="text-center text-light fw-bold mt-5">
-                            TEXT
+                        <h1 class="text-center text-light fw-bold">
+                            ABOUT
                         </h1>
                     </div>
 
+                    <!--Col icon-->
                     <div class="col-12">
-                        <div class="icon text-center fw-bold text-light mb-5">
-                            ----------- STELLA ------------
+                        <div class="my_icon d-flex align-items-center justify-content-center mb-3">
+                            <div class="my_hr bg-light me-2"></div>
+                            <i class="fa-solid fa-star text-light fs-2"></i>
+                            <div class="my_hr bg-light ms-2"></div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <p class="text-light px-5 px-md-0">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse praesentium nisi dolorem repudiandae dolor qui distinctio obcaecati, nulla voluptatibus cumque officiis quisquam asperiores pariatur optio, repellat est, amet ratione fugiat.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam incidunt nihil quibusdam ducimus ex id? Lorem ipsum dolor sit amet.
+                </div>
+
+                <!--Row for text-->
+                <div class="row mb-3">
+
+                    <!--Col for paragraph-->
+                    <div class="col-8 m-auto col-md-6">
+                        <p class="text-light">
+                            Freelancer is a free bootstrap theme created by Start Bootstrap.
+                            The download inludes the complete source files including HTML, CSS and JavaScript as well as
+                            optional LESS stylesheets for easy customization.
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-6">
-                        <p class="text-light px-5 px-md-0">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse praesentium nisi dolorem repudiandae dolor qui distinctio obcaecati, nulla voluptatibus cumque officiis quisquam asperiores pariatur optio, repellat est, amet ratione fugiat.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet nemo perspiciatis consequatur qui doloribus laudantium.
+                    <!--Col for paragraph-->
+                    <div class="col-8 m-auto col-md-6">
+                        <p class="text-light ">
+                            Wheter you're a student looking to showcase your work, a professional looking to attract
+                            clients, or a graphic artist looking to share your projects, this template is the perfect
+                            starting point!
                         </p>
-                    </div>
-
-                    <div class="col-12">
-                        <div class="button text-center mb-5">
-                            <button type="button" class="btn"><span> ! </span> button</button>
-                        </div>
                     </div>
                 </div>
+
+                <!--Row for button-->
+                <div class="row ">
+                    <!--Col for button-->
+                    <div class="col-12">
+                        <div class="my_button text-center">
+                            <a href="#" class="btn text-light">
+                                <button class="rounded">
+                                    <span>
+                                        <i class="fa-solid fa-download text-light"></i>
+                                    </span>
+                                    Download
+                            </a>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--End container-->
             </div>
 
-
+            <!--End Section-->
         </section>
+
+
+        <!--Section Contact Me-->
+        <section id="contact_me" class="contact_me mb-5">
+            <!--Start container-->
+            <div class="container">
+
+                <!--Row H1 and Icon-->
+                <div class="row">
+
+                    <!--Col for h1-->
+                    <div class="col-12">
+                        <h1 class="text-center fw-bold">
+                            CONTACT ME
+                        </h1>
+                    </div>
+
+                    <!--Col for icon-->
+                    <div class="col-12">
+                        <div class="my_icon d-flex align-items-center justify-content-center mb-4">
+                            <div class="my_hr bg-dark me-2"></div>
+                            <i class="fa-solid fa-star text-dark fs-2"></i>
+                            <div class="my_hr bg-dark ms-2"></div>
+                        </div>
+                    </div>
+
+                    <!--End Row-->
+                </div>
+
+                <!--Row Form-->
+                <div class="row">
+
+                    <!--Col form-->
+                    <div class="col-8 m-auto">
+                        <form>
+                            <!--Nome-->
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="name" class="form-control" id="name" />
+                            </div>
+
+                            <!--Email-->
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="email" />
+                            </div>
+
+                            <!--Number phone-->
+                            <div class="mb-3">
+                                <label for="number_phone" class="form-label">Number Phone</label>
+                                <input type="number_phone" class="form-control" id="number_phone" />
+                            </div>
+
+                            <!--Message-->
+                            <div class="mb-3">
+                                <label for="textarea" class="form-label">Message</label>
+                                <textarea class="form-control" id="textarea" rows="3"></textarea>
+                            </div>
+
+                            <!--Button-->
+                            <button type="submit" class="btn text-light">Send</button>
+                        </form>
+
+                        <!--End Col-->
+                    </div>
+
+                    <!--End Row-->
+                </div>
+
+
+                <!--End container-->
+            </div>
+        </section>
+
+        <!--End main-->
     </main>
 
     <footer>
-        <section class="main-footer">
+        <section class="main-footer py-5">
+
+            <!--Start container-->
             <div class="container">
 
-                <div class="row pt-3 text-light text-center">
+                <!--Row Col footer-->
+                <div class="row text-light text-center">
 
-                    <!--Start col-->
+                    <!--Col Location -->
                     <div class="col-12 col-md-4 mb-4">
-                        <h5>TEXT</h5>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <h5>
+                            LOCATION
+                        </h5>
+
+                        <p>
+                            2212 John Daniel Drive Clark, MO 54243
+                        </p>
+
+                        <!--End col-->
                     </div>
 
-                    <!--Central col with icon-->
+                    <!--Col Around the web (Icon col)-->
                     <div class="col-12 col-md-4 mb-4">
-                        <h5>TEXT</h5>
+                        <h5>
+                            AROUND THE WEB
+                        </h5>
+
+                        <!--Row Button Icon-->
+                        <div class="row d-flex justify-content-center">
+
+                            <!--Col for icon Facebook-->
+                            <div class="col-2 mx-md-2">
+                                <button>
+                                    <i class="fa-brands fa-facebook-f text-light"></i>
+                                </button>
+                            </div>
+
+                            <!--Col for icon Google plus-->
+                            <div class="col-2 mx-md-2">
+                                <button>
+                                    <i class="fa-brands fa-google-plus-g text-light"></i>
+                                </button>
+                            </div>
+
+                            <!--Col for icon Twitter-->
+                            <div class="col-2 mx-md-2">
+                                <button>
+                                    <i class="fa-brands fa-twitter text-light"></i>
+                                </button>
+                            </div>
+
+                            <!--Col for icon Linkedin-->
+                            <div class="col-2 mx-md-2">
+                                <button>
+                                    <i class="fa-brands fa-linkedin-in text-light"></i>
+                                </button>
+                            </div>
+
+                            <!--End Row-->
+                        </div>
+
+                        <!--
                         <div class="icon justify-content-center d-flex">
                             <div>
                                 <button>
@@ -205,31 +468,48 @@
                                 </button>
                             </div>
                         </div>
+                        -->
+
+                        <!--End col-->
                     </div>
 
-                    <!--End col-->
+                    <!--Col About Freelancer-->
                     <div class="col-12 col-md-4 mb-4">
-                        <h5>TEXT</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            <a href="#">lorem link</a>
+                        <h5>
+                            ABOUT FREELANCER
+                        </h5>
+
+                        <p>
+                            Freelance is a free to use, oper source Bootstrap theme created by
+                            <a href="#">
+                                Start Bootstrap
+                            </a>
+                            .
                         </p>
                     </div>
 
+                    <!--End Row-->
                 </div>
 
             </div>
         </section>
 
-        <section class="end-footer">
-            <div class="container">
-                <div class="row ">
+        <section class="end-footer py-4">
+            <!--Start container-->
+            <div class="container ">
+
+                <div class="row">
+
+                    <!--Col paragraph footer-->
                     <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-center text-light py-4">
+                        <div class="d-flex align-items-center justify-content-center text-light">
                             <p>
-                                text copiright
+                                Copiright &#169; Yout Website 2019
                             </p>
+
+                            <!--End Col-->
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

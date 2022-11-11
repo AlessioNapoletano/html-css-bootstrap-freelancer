@@ -1,33 +1,18 @@
-/*                                                  
-                                                        GENERIC CLASS
+/*
+GENERIC ELEMENT
 */
-/*Generic back-ground color*/
-.background-red{
-    background-color: #a14e64;
-}
 
-.background-light-blue{
-    background-color: #64a0b2;
-}
-
-.background-blue{
-    background-color: #557cbc;
-}
-
-.background-dark-violet{
-    background-color: #3325ae;
-}
-
-.background-yellow{
-    background-color: #c3b2a3;
-}
-
-/*                                                  
-                                                        GENERIC ELENENT
-*/
-a{
+/*Only for a elemnent in footer*/
+a {
     text-decoration: none;
     color: #6ebb9b;
+}
+
+/*Div with the icon in header and in main*/
+div.my_icon div.my_hr {
+    width: 10rem;
+    height: .2rem;
+    border-radius: 3px;
 }
 
 
@@ -35,53 +20,58 @@ a{
                                                             HEADER
 */
 
-
 /*Background color for header*/
-header{
+header {
     background-color: #6ebb9b;
 }
 
-/*Formatting a div image*/
-header div.my_img{
-    width: 298px;
-    height: 316px;
+/*Background color for section nav*/
+section.nav{
+    background-color: #363f50;
 }
 
-/*Div with the icon in header*/
-div.my_icon div.my_hr{
-    width: 10rem;
-    height: .2rem;
-    border-radius: 3px;
+/*Formatting a div image*/
+header div.my_img {
+    width: 298px;
+    height: 316px;
 }
 
 /*
                                                             MAIN
 */
 
-main div.my-box{
-    border: 1px solid black;
-    height: 12rem;
+/*Width and Height for my_box*/
+section.portfolio div.my_box {
+    width: 100%;
+    height: 18rem;
+
 }
 
-main div.img{
-    width: 180px;
-    height: 160px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: pink;
+/*Width and Height for img child of my_box*/
+section.portfolio div.my_box>img {
+    width: 100%;
+    height: 100%;
 }
-
 
 /*Section about*/
-section.about{
+section.about {
     background-color: #6ebb9b;
 }
 
-
-section.about button{
+/*Formatting button in section about*/
+section.about button {
     border: 1px solid white;
     background-color: #6ebb9b;
-    color: white;
+}
+
+/*Formatting button in section Contact Me*/
+section.contact_me button {
+    background-color: #6ebb9b;
+}
+
+/*Hover button*/
+section.contact_me button:hover {
+    background-color: #2d5e49;
 }
 
 /*
@@ -89,22 +79,32 @@ section.about button{
 */
 
 /*Section main-footer*/
-section.main-footer{
+section.main-footer {
     background-color: #46536b;
 }
 
-section.main-footer button{
+/*Formatting button*/
+section.main-footer button {
     border: 1px solid white;
-    color: white;
     border-radius: 50%;
-    padding: .5rem 1rem;
+    padding: .8rem 1rem;
     background-color: #46536b;
-    margin-right: .5rem;
+}
+
+/*Button hover*/
+section.main-footer button:hover{
+    background-color: #747c8b;
+}
+
+/*For correct circle in icon*/
+section.main-footer button>i {
+    width: 16px;
+    height: 16px;
 }
 
 
 /*Section end-footer*/
-section.end-footer{
+section.end-footer {
     background-color: #363f50;
 
 }
